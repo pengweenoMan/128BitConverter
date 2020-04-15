@@ -31,7 +31,7 @@ public class One28BitConverter {
       }
       
       for(Digit digit : digits) {
-        //System.out.println(digit.getNum() + " " + digit.getBinary());
+        System.out.println(digit.getNum());
 
         for(int i = 0; i < 7; i++) {
           if(digit.getBinary().get(i))
